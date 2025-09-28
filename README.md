@@ -1,6 +1,7 @@
 # GAzyme-optimization
 
 **GAzyme-optimization** is a genetic algorithm framework based on the **[GAzyme](https://github.com/ashi198/GAzyme/)** framework, which is built on the **[Enzeptional](https://github.com/GT4SD/enzeptional.git)** framework for protein sequence optimization using ESM2 protein large language model and fitness Kcat predictor.
+
 This version introduces modifications and additional operators to enhance GA performance. It is designed for mutating enzyme sequences in a biologically meaningful way, combining guided crossover, selection, and mutation strategies.
 
 ---
