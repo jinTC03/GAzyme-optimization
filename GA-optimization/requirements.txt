@@ -1,6 +1,7 @@
 # BA thesis implementation of enzeption github 
 1. git clone https://github.com/GT4SD/enzeptional.git
-2. conda create -n gt4sd python=3.9
-3. go to enzeption > pip install -e ".[dev]" 
-4. then do pip install torch --upgrade, to avoid No module named 'torch.distributed._tensor error 
+2. replace the `src` folder in the installed `enzeptional` package with the `src` folder from this repository.
+3. conda create -n gt4sd python=3.9
+4. go to enzeption > pip install -e ".[dev]" 
+5. then do pip install torch --upgrade, to avoid No module named 'torch.distributed._tensor error 
 
