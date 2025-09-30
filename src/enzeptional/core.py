@@ -321,7 +321,7 @@ class SequenceMutator:
         Returns:
             A list of mutated sequences.
         """
-        max_mutations = min(len(self.sequence), 5)#number_of_mutations)
+        max_mutations = min(len(self.sequence), 5)
         mutated_sequences: set[str] = set()
         attempts = 0
         max_attempts = num_sequences * 10
@@ -464,8 +464,8 @@ class EnzymeOptimizer:
         substrate_smiles: str,
         product_smiles: str,
         chem_model: HuggingFaceEmbedder,
-        selection_generator: str,#NewSelectionGenerator,
-        crossover_generator: str,#NewCrossoverGenerator,
+        selection_generator: str,
+        crossover_generator: str,
         concat_order: List[str],
         batch_size: int,
         selection_ratio: float,
