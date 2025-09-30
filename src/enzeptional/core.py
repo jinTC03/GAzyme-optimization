@@ -469,7 +469,7 @@ class EnzymeOptimizer:
         concat_order: List[str],
         batch_size: int,
         selection_ratio: float,
-        selection_method: str,#bu
+        selection_method: str,
         perform_crossover: bool,
         crossover_method: str,
         use_intervals: bool,
